@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @alexobninsk
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+apt install screen -y
 
-<!---
-alexobninsk/alexobninsk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+screen -S unjail
+
+
+
+
+wget https:https://raw.githubusercontent.com/alexobninsk/Script-for-Evmos/main/unjail.sh \
+&& chmod +x unjail.sh \
+&& ./unjail.sh -b evmosd -k $evmos_wallet_name -s 120m
